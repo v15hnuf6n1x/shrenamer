@@ -1,0 +1,48 @@
+{
+    "name": "Sharingan Rename Bot",
+    "description": "Telegram's best Open Source Rename Bot. Create your Fork now.",
+    "logo": "https://p1.hiclipart.com/preview/401/429/117/sharingan-all-files-mangekyo-sharingan.jpg",
+    "keywords": ["telegram", "best", "Rename", "Rename-Bot"],    
+    "repository": "https://github.com/dakshkohli23/Sharingan2023",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "FORCE_SUB": {
+            "description": "For Force Subscribe. Paste your Update channel USERNAME (without @).. Also Make The Bot Admin In That Channel!!",
+            "value": "",
+            "required": false 
+        },
+        "TG_BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "ADMIN": {
+            "description":"Add Your User ID multiple is use space to split"
+        },
+        "DB_URL": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "value": ""
+        },
+        "DB_NAME":{ 
+            "description":"Your Mongo DB Database Name",
+            "value": "sharingan-2023",
+            "required": false
+        },
+        "WELCOME_BANNER": {
+            "description": "Your Bot Start With Pic. Send Pic URL",
+            "value": "",
+            "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

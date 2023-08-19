@@ -1,0 +1,10 @@
+aiohttp
+aiofiles
+Pillow
+humanize
+hachoir
+motor
+pyrogram==2.0.35
+tgcrypto
+dnspython
+requests
