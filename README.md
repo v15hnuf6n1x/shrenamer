@@ -33,7 +33,7 @@ An Multi purpose Bot Which Can :-
 
 ## Deploy To Render 
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/dakshkohli23/Sharingan2023)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/v15hnuf6n1x/shrenamer)
 
 
 ## Deploy To Heroku
